@@ -1,0 +1,37 @@
+{
+  "name": "@types/minimatch",
+  "version": "3.0.0",
+  "description": "Types for https://github.com/isaacs/minimatch",
+  "typings": "index.d.ts",
+  "scripts": {
+    "lint": "tslint index.d.ts",
+    "bundle": "typings bundle -o bundle.d.ts",
+    "exec": "ts-node test.ts",
+    "test": "npm run lint && npm run bundle && npm run exec",
+    "prepublish": "typings install",
+    "postpublish": "greenkeeper-postpublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/types/npm-minimatch.git"
+  },
+  "author": {
+    "name": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/types/npm-minimatch/issues"
+  },
+  "homepage": "https://github.com/types/npm-minimatch#readme",
+  "devDependencies": {
+    "greenkeeper-postpublish": "^1.0.1",
+    "minimatch": "^3.0.3",
+    "ts-node": "^2.0.0",
+    "tslint": "^4.3.1",
+    "tslint-config-typings": "^0.3.1",
+    "typescript": "^2.1.5",
+    "typings": "^2.1.0"
+  }
+}

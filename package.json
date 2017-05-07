@@ -27,7 +27,7 @@
   "homepage": "https://github.com/types/npm-minimatch#readme",
   "devDependencies": {
     "greenkeeper-postpublish": "^1.0.1",
-    "minimatch": "^3.0.3",
+    "minimatch": "^3.0.4",
     "ts-node": "^3.0.0",
     "tslint": "^5.0.0",
     "tslint-config-typings": "^0.3.1",
